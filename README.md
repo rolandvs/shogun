@@ -53,7 +53,7 @@ Load sequence:
 - `R`ms(4)
 - `J`00000000.
 
-The checksum is CRC16/ARC (polynome 0xA001, init 0).
+The checksum is CRC16/ARC (polynomial 0xA001, init 0).
 
 ## Tool Shogun
 
@@ -71,7 +71,7 @@ chmod +x shogun.py
 
 With Linux the port is usually something like `/dev/ttyUSB0` or `/dev/ttyACM0`. In case a "permission denied" is returned when running the program, it is required to add yourself (as user) to the `dialout` group, then log out and back in.
 
-On MacOSX the port is usually something like `/dev/cu.usbserial-…` or `/dev/cu.usbmodem…`.
+On OSX the port is usually something like `/dev/cu.usbserial-…` or `/dev/cu.usbmodem…`.
 
 To set the port once add it using `export SHOGUN_PORT=/dev/ttyUSB0`.
 
